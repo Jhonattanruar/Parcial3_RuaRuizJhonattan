@@ -6,8 +6,8 @@ namespace Parcial3_RuaRuizJhonattan.DAL.Entities
     {
 
         [Display(Name = "Porteria de ingreso")]
-        [Required]
-        public String EntranceGate { get; set; }
+        
+        public String EntranceGate  { get; set; }
 
     }
 }
