@@ -3,10 +3,10 @@ using Parcial3_RuaRuizJhonattan.DAL.Entities;
 
 namespace Parcial3_RuaRuizJhonattan.DAL
 {
-    public class DataBaseContex : DbContext
+    public class DataBaseContext : DbContext
 
     {
-        public DataBaseContex(DbContextOptions<DataBaseContex> option) : base(option) 
+        public DataBaseContext(DbContextOptions<DataBaseContext> option) : base(option) 
         {
             
         }
