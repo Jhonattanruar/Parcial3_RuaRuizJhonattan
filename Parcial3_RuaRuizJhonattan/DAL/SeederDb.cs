@@ -27,18 +27,19 @@ namespace Parcial3_RuaRuizJhonattan.DAL
             {
                 for(int i = 0; i < 1000; i++)
                 {
-                    _context.Tickets.Add(new Entities.Tickets
+                   _=_context.Tickets.Add(new Entities.Tickets
                     {
-                        UseDate = 'null',
+                        UseDate = null,
                         IsUsed = false,
-                        EntranceGate = 'null'
+                        EntranceGate = null,
+                       
                     });
                 }
-                
+
+                await _context.SaveChangesAsync();
 
 
-
-        }
+            }
 
     }
 

@@ -89,7 +89,7 @@ namespace Parcial3_RuaRuizJhonattan.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(Guid id, [Bind("EntranceGate,Id,UseDate,IsUsed")] Tickets tickets)
+        public async Task<IActionResult> Edit(Guid id, [Bind("EntranceGate,Id,UseDate,IsUsed,Voleta")] Tickets tickets)
         {
             if (id != tickets.Id)
             {

@@ -7,10 +7,10 @@ namespace Parcial3_RuaRuizJhonattan.DAL.Entities
         [Required]
         public Guid Id { get; set; }
         [Display (Name = "Fecha de uso de la boleta")]
-        public DateTime UseDate { get; set; }
+        public DateTime? UseDate { get; set; }
 
         [Display(Name = "Boleta en Usada SI/NO")]
-        public Boolean IsUsed { get; set; } 
+        public Boolean? IsUsed { get; set; } 
 
              
 
